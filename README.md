@@ -40,7 +40,7 @@ IfsApiTests/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/IfsApiTests.git
+git clone https://github.com/oksakrop/IfsApiTests.git
 cd IfsApiTests
 
 # 2. Restore NuGet packages
@@ -101,7 +101,7 @@ ApiSettings__BaseUrl=https://my-staging-api.com dotnet test
 
 ---
 
-## CI/CD
-
-GitHub Actions workflow runs automatically on push to `main`/`develop` and on pull requests.
-Test results are published as a report in the Actions tab.
+- **Request/Response Logging**: Detailed logs for every API call for easier debugging.
+- **CI/CD Integration**: Automated test execution via GitHub Actions on every push/PR.
+- **Configuration Management**: Environment-based configuration using `appsettings.json`.
+- **Data Modeling**: Strongly typed C# models for all API resources.
